@@ -79,19 +79,35 @@ const cars = [
   },
 ]
 
+/*
 for (let index = 0; index < cars.length; index++) {
-
   let randomLetters = String.fromCharCode(65+Math.floor(Math.random()*26))+ String.fromCharCode(65+Math.floor(Math.random()*15))
   cars[index].licensePlate = randomLetters+"123"+randomLetters;
-  
 }
-console.log(cars);
+console.log(cars); */
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+let newObject = { brand: 'Ferrari', model: 'Portofino', color: 'red', trims: ['GTS', 'GTB'] }
+cars.push(newObject);
+
+for (let index = 0; index < cars.length; index++) {
+  let randomLetters = String.fromCharCode(65 + Math.floor(Math.random() * 26)) + String.fromCharCode(65 + Math.floor(Math.random() * 15))
+  cars[index].licensePlate = randomLetters + "123" + randomLetters;
+}
+console.log(cars)
+
+for (let index = 0; index < cars.length; index++) {
+  const element = cars[index];
+  element.trims.pop();
+
+}
+
+console.log(cars)
+  
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
