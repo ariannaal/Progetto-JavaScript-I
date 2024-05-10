@@ -1,0 +1,132 @@
+header {
+    height: 3.5em;
+    width: 100%;
+    background-color: #222F3F;
+}
+
+#logo {
+    height: 2em;
+    margin-top: 1em;
+    margin-left: 1em
+}
+
+nav {
+    height: 2em;
+    width: 100%;
+    background-color: #364759;
+    padding-top: 0.6em;
+}
+
+.navbutton {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.2em;
+    font-size: small;
+    cursor: pointer;
+}
+
+body {
+    background-color: #E9EDEE;
+}
+
+#orangecontainer {
+    margin: 1.5em;
+    height: 1.5em;
+    background-color: #F66405;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#giftcontainer {
+    background-image: url(assets/bg-image.png);
+    background-size: contain;
+    height: 10em;
+    margin: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.gift {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+#holiday {
+    font-size: large;
+    display: flex;
+}
+
+#gogifter {
+    font-size: small;
+}
+
+.container {
+    margin: 1.5em;
+    height: 28em;
+    background-color: white;
+}
+
+#perfectgift {
+    padding-top: 2em;
+    margin-left: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 500;
+}
+
+#shopnow {
+    font-size: smaller;
+    margin-left: 2em;
+    text-decoration: none;
+    color: #125D66;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.prodotti {
+    margin: 2em;
+}
+
+.prodotto {
+    align-items: center;
+    margin-left: 2em;
+    background-size: cover;
+    border-radius: 10px;
+    height: 22em;
+    width: 18em;
+    box-shadow: 4px 4px 4px lightgray;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#kindle {
+    background-image: url(assets/img_1.jpg);
+    background-position: center;
+}
+
+#vaso {
+    background-image: url(assets/img_2.jpg);
+    background-position: center;
+}
+
+#orologio {
+    background-image: url(assets/img_3.jpg);
+    background-position: center;
+}
+
+#pet {
+    background-image: url(assets/img_4.jpg);
+    background-position: center;
+}
