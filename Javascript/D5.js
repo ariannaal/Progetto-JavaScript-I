@@ -91,6 +91,8 @@ console.log(cars); */
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+
+/*
 let newObject = { brand: 'Ferrari', model: 'Portofino', color: 'red', trims: ['GTS', 'GTB'] }
 cars.push(newObject);
 
@@ -106,23 +108,36 @@ for (let index = 0; index < cars.length; index++) {
 
 }
 
-console.log(cars)
+console.log(cars) */
   
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+
+/*
 const justTrims = []
 for (let index = 0; index < cars.length; index++) {
   const element = cars[index];
   justTrims.push(element.trims[0])
 }
 
-console.log(justTrims);
+console.log(justTrims); */
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+/*
+for (let index = 0; index < cars.length; index++) {
+  const element = cars[index];
+  if (element.color.charAt(0) === "b") {
+    console.log(element.brand, "Fizz")
+  } else {
+    console.log(element.brand,"Buzz")
+}
+} */
+
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
